@@ -7,7 +7,6 @@ Description: A task scheduler for roblox. See readme for more information on how
 
 Usage Terms: You are free to use and modify this script for personal or commercial use, as long as you cite the original author (Benjamin Sirianni) and provide a link to the original source code. You may not claim this script as your own or distribute it without attribution.
 
-Contact Information: You can reach me at benjamin.sirianni@example.com with any questions or feedback.
 ]]
 local wrap, wait, spawn, defer, yield, resume, create, running, status, insert, remove = require(script.wrap), task.wait, task.spawn, task.defer, coroutine.yield, coroutine.resume, coroutine.create, coroutine.running, coroutine.status, table.insert, table.remove
 local TASKref, SCHEDULERref = {}, {} -- differenciate by table reference 
